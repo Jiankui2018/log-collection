@@ -17,3 +17,10 @@
 2. 执行以下命令跟踪路由并告知结果:
     - `ping -4 -n 20 <FQDN of your site>`
     - `tracert <FQDN of your site>`
+
+## Network Activities in Develop tool
+
+1. Take Edge/Chrome as example, press **CTRL+SHIFT+I** to open develop tool in the browser, switch to the **Network** tab, tick **Preserve log** and **Disable cache**.
+2. Reproduce the issue, network activities should be recored in the develop tool pannel. 
+3. right click any network activity and click **Save all as HAR with content** to save and then close the develop tool.
+4. Provide *.har file.
