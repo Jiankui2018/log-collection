@@ -15,5 +15,5 @@
 
 1. 以管理员权限运行CMD
 2. 执行以下命令跟踪路由并告知结果:
-    - ping -4 -n 20 <FQDN of your site>
-    - tracert joyson.sharepoint.com <FQDN of your site>
+    - `ping -4 -n 20 <FQDN of your site>`
+    - `tracert <FQDN of your site>`
