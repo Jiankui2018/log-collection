@@ -11,7 +11,7 @@
 6. 重现问题,并记录时间点, URL等相关信息
 7. 在Network Monitor上点击"Capture"->stop”(或者F7) ,点击"File"->"Save as"，保存为Cap包.
 
-## Trace Router
+## Trace Route
 
 1. 以管理员权限运行CMD
 2. 执行以下命令跟踪路由并告知结果:
