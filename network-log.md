@@ -24,3 +24,15 @@
 2. Reproduce the issue, network activities should be recored in the develop tool pannel. 
 3. right click any network activity and click **Save all as HAR with content** to save and then close the develop tool.
 4. Provide *.har file.
+
+## Fiddler
+
+1. Download and install Fiddler on the client computer:
+    - https://www.telerik.com/download/fiddler/fiddler4
+2. Run Fiddler and ensure File->Capture Traffic has been checked.
+3. Enable HTTPS decryption by check the following options if HTTPS is used. You will be prompted to ask to install a test root certificate issued by Fiddler, which will be used to decrypt the https response.
+    - Tools -> Fiddler Options -> HTTPS
+        - Capture HTTPS CONNECTS
+        - Decrypt HTTPS traffic
+4. Reproduce the issue.
+5. Click File->Save->All Sessions, save it as issueLogs.saz and then close Fiddler by File->Exit.
